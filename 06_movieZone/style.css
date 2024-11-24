@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+}
+
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn{
+    margin: 24px 0px;
+    padding: 8px 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    border: 1px solid blue;
+    color: black;
+}
+
+.btn-all{
+    border: 1px solid red;
+    color: red;
+}
+
+.btn-action{
+    border: 1px solid purple;
+    color: purple;
+}
+
+.btn-horror{
+    border: 1px solid orangered;
+    color: orangered;
+}
+
+.btn-thriller{
+    border: 1px solid rgb(41, 181, 247);
+    color: rgb(41, 181, 247);
+}
+
+.btn-animation{
+    border: 1px solid maroon;
+    color: maroon;
+}
+
+.btn-sci-fi{
+    border: 1px solid olivedrab;
+    color: olivedrab;
+}
+
+.btn-drama{
+    border: 1px solid slateblue;
+    color: slateblue;
+}
+
+.movie-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.image-js{
+    width: 240px;
+    height: auto;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+
+.image-js:hover{
+    border: 2px solid yellow;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.para{
+    color: white;
+    margin: 20px 0px;
+    width: 240px;
+    text-align: center;
+    font-weight: bold;
+}
+
